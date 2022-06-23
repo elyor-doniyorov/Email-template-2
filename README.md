@@ -9,11 +9,11 @@
 
 - HTML
 - CSS
-- MDB server
+
 
 ## Live Demo
 
-https://elyor-email-template-1.mdbgo.io
+I could not use mdb server for this project because I have reached the maximum number of projects allowed for my accout.
 
 
 ## Clone This Project
@@ -22,10 +22,6 @@ https://elyor-email-template-1.mdbgo.io
 - cd Email-template-2
 ```
 
-## Send Email using
-```
-- website https://putsmail.com/tests to check email template is working or not
-```
 
 ## Authors
 
