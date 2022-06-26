@@ -11,11 +11,6 @@
 - CSS
 
 
-## Live Demo
-
-I could not use mdb server for this project because I have reached the maximum number of projects allowed for my accout.
-
-
 ## Clone This Project
 ```
 - git clone `$ https://github.com/elyor-doniyorov/Email-template-2.git`
