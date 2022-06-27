@@ -4,7 +4,6 @@
 ![screenshot](img/Screenshot.png)
 
 
-
 ## Built With
 
 - HTML
@@ -16,6 +15,10 @@
 - git clone `$ https://github.com/elyor-doniyorov/Email-template-2.git`
 - cd Email-template-2
 ```
+
+## How to use template 
+
+- After copy, do a right click on `index.html` to open it in the live server.
 
 
 ## Authors

@@ -10,6 +10,7 @@
       padding: 0;
       border: 0;
     }
+
     body {
       font-family: sans-serif;
       background-color: #d9dbdb;
@@ -26,6 +27,10 @@
     header {
       width: 98%;
     }
+    header > h1 {
+      color: #6ad20e;
+      text-align: center;
+    }
 
     #logo {
       max-width: 150px;
@@ -35,31 +40,50 @@
 
     #wrapper {
       background-color: #ffffff;
+      max-height: 100%;
     }
 
     p {
       margin: 5%;
+      font-size: 27px;
+    }
+
+    .one-col {
+      text-align: center;
+      padding-bottom: 10%;
     }
 
     .btn {
-      margin: 3% 2% 5% 5%;
-      background-color: #6cd610;
+      background-color: #6ad20e;
       color: #ffffff;
       text-decoration: none;
-      font-weight: 800;
-      padding: 15px 12px;
-      font-style: italic;
+      font-weight: 700;
+      padding: 18px;
+      font-size: 18px;
       border-radius: 8px;
       letter-spacing: 2px;
+    }
+
+    #social-links {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 7%;
+      list-style: none;
+    }
+
+    ul > li > a {
+      margin: 0 15px;
     }
 
     #contact {
       text-align: center;
       padding-bottom: 3%;
       line-height: 16px;
-      font-size: 12px;
-      color: #303840;
+      font-size: 17px;
+      color: rgb(129, 127, 127);
     }
+
   </style>
 </head>
 <body>
@@ -68,19 +92,35 @@
       <div id="logo">
         <img src="img/logo.webp" alt="OneSkool">
       </div>
+      <h1>Welcome to OneSkool!</h1>
     </header>
     <div class="one-col">
-      <p>Hi there,</p>
-      <p>Sometimes you just want to send a simple HTML email with a simple design and clear call to action. This is it.</p>
       
-      <a href="https://oneskool.com/" class="btn">Call to action</a>
-      <p>This is a really simple Email template. Its sole purpose is to get the recipient to click the button with no distractions.</p>
-      <p>Good luck! Hope it works.</p>
-      
-      <footer>
-        <p id="contact">© OneSkool 2022 - All rights reserved</p>
-      </footer>
+      <p>Ready to get started? Check out the <br> <b>Getting Started Guide</b>. It'll take you <br>through the basics.</p>
+     <br>
+      <a href="https://oneskool.com/auth/register" class="btn">Call to action >></a>
     </div>
   </div>
+  <div style="width: 100%; height: 20px; border-bottom: 4px solid rgb(176, 173, 173); text-align: center;margin-top: 20px;">
+    <span style="font-size: 40px; background-color: d9dbdb; padding: 0 10px; color: rgb(176, 173, 173); font-style: italic; font-weight: 500;">
+      OneSkool
+    </span>
+  </div>
+
+  <footer>
+    <ul id="social-links">
+      <li>
+        <a href="https://www.linkedin.com/company/oneskool/" target="_blank"><img src="https://elyor-email-template-1.mdbgo.io/img/facebook.png"></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/company/oneskool/" target="_blank"><img src="https://elyor-email-template-1.mdbgo.io/img/linkedin.png"></a>
+      </li>
+      <li>
+        <a href="https://twitter.com/theoneskool" target="_blank"><img src="https://elyor-email-template-1.mdbgo.io/img/twitter.png"></a>
+      </li>
+    </ul>
+
+    <p id="contact">© OneSkool 2022 - All rights reserved</p>
+  </footer>
 </body>
 </html>
