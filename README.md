@@ -1,8 +1,6 @@
 # Email-template-2
 
 > This is an Email Template small project can be used to send emails as a template. 
-![screenshot](img/Screenshot.png)
-
 
 ## Built With
 
